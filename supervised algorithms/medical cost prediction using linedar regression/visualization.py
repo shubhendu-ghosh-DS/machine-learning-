@@ -76,3 +76,7 @@ sns.distplot(x = np.log(data['charges']),color = 'g')       #same but with log s
 corr = data.corr('pearson')             #correlation and heatmap
 mask = np.triu(corr)
 sns.heatmap(corr, linewidth = 0.5 , mask = mask , annot = True)
+
+
+
+#All the image output of these visualization are available on the images foder 
