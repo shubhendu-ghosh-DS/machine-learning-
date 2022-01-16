@@ -9,3 +9,8 @@ from sklearn.ensemble import AdaBoostRegressor,RandomForestRegressor,GradientBoo
 from xgboost.sklearn import XGBRegressor
 
 from pandas_profiling import ProfileReport
+
+''' pandas that is a data analysis library built on numpy
+seaborn and matplotlib are data visualization libary
+sklearn is a machine learning library
+'''
